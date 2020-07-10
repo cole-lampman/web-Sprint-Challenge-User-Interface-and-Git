@@ -248,7 +248,7 @@ button{
     margin:0 auto;
 }
 button{
-    padding:2% 5%;
+    padding:1% 10px;
     margin-top: 1%;
     display: flex;
     align-items: baseline;
