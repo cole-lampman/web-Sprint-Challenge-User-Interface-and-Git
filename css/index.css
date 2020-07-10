@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -66,10 +67,45 @@ p {
     line-height: 1.4;
 }
 
-.container {
+.indexContainer {
     width: 800px;
     margin: 0 auto;
 }
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+.navBar{
+    height: 79px;
+}
+.navBar ul{
+    display: flex;
+     width: 100%;
+   margin: 0 auto;
+   justify-content: space-around;
+   align-items: baseline;
+   
+}
+.navBar ul a{
+    text-decoration: none;
+    color: black;
+}
+.about-page nav{
+    padding-top: 20px;
+}
+
+
+.jumbo{
+    background-image: url(img\jumbo.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    width:100%
+}
+
 
 .top-content {
     display: flex;
@@ -104,7 +140,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -143,4 +179,85 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+.box1{
+    background: teal;
+}
+.box2{
+    background: gold;
+}
+.box3{
+    background: cadetblue;
+}
+ .box4{
+     background:coral;
+      }
+.box5{
+    background: crimson;
+}
+.box6{
+    background-color: forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color: hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+     background-color: dodgerblue;
+}
+button{
+    background-color: white;
+    border:2px solid black;
+    border-radius: 15%;
+    padding:5px 5px 5px 5px;
+    
+}
+.topRow{
+    width:100%;
+    display: flex;
+        
+}
+.bottomRow{
+    display: flex;
+    width:100%
+}
+
+    
+.strategy {
+    border-bottom: 1px dashed black;
+    width:50%;
+    margin-right: 25px;
+    padding-right: 2%;
+}
+.howWeWork{
+    border-bottom: 1px dashed black;
+    margin:0 auto;
+}
+.placesWeWork{
+    border-bottom: 1px dashed black;
+    margin-right: 23px;
+    padding-right: 2%;
+}
+.collaboration{
+    border-bottom: 1px dashed black;
+    margin:0 auto;
+}
+button{
+    padding:1% 10px;
+    margin-top: 1%;
+    display: flex;
+    align-items: baseline;
+}
+#aboutPic{
+   margin-top: 2%;
+    margin-bottom: 2%;
+}
+#about{
+    border-bottom: 1px dashed black;
+    padding-bottom: 1%;
 }
