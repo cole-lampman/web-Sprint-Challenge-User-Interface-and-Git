@@ -86,13 +86,16 @@ header{
     display: flex;
      width: 100%;
    margin: 0 auto;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: baseline;
    
 }
 .navBar ul a{
     text-decoration: none;
     color: black;
+}
+.about-page nav{
+    padding-top: 20px;
 }
 
 
