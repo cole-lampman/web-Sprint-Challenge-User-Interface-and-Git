@@ -213,8 +213,8 @@ footer nav a {
 button{
     background-color: white;
     border:2px solid black;
-    border-radius: 15%;
-    padding:5px 5px 5px 5px;
+    border-radius: 8%;
+    
     
 }
 .topRow{
@@ -248,7 +248,7 @@ button{
     margin:0 auto;
 }
 button{
-    padding:1% 10px;
+    padding:10px 15px;
     margin-top: 1%;
     display: flex;
     align-items: baseline;
