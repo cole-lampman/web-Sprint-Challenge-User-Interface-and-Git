@@ -228,7 +228,7 @@ button{
 .strategy {
     border-bottom: 1px dashed black;
     width:50%;
-    margin:0 auto;
+    margin-right: 25px;
     padding-right: 2%;
 }
 .howWeWork{
@@ -237,7 +237,7 @@ button{
 }
 .placesWeWork{
     border-bottom: 1px dashed black;
-    margin:0 auto;
+    margin-right: 23px;
     padding-right: 2%;
 }
 .collaboration{
